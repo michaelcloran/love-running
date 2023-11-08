@@ -158,6 +158,23 @@ hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg{
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* makes the square image into a folder*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
